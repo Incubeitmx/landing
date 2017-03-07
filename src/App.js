@@ -34,10 +34,10 @@ class App extends Component {
             <h1>¿Por qué deberías usarla?</h1><br/>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel ultricies tellus.
                Phasellus convallis varius ipsum, nec blandit ipsum pretium id. In hac habitasse platea dictumst. </p>
-             <br/><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ver los eventos más cercanos.</p>
-             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listado de lugares populares por categoría.</p>
-             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ver lugares y conocer más sobre ellos.</p>
-             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hacer un recorrido guíado, caminando, en &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bicicleta o en automóvil.</p>
+             <br/><p>Ver los eventos más cercanos.</p>
+             <p>Listado de lugares populares por categoría.</p>
+             <p>Ver lugares y conocer más sobre ellos.</p>
+             <p>Hacer un recorrido guíado, caminando, en bicicleta o en automóvil.</p>
           </div>
         </div>
 

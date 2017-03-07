@@ -13,11 +13,10 @@
     overflow-y:auto;
   }
   .App-links {
-      width: 40vw;
+      width: 45vw;
       height: 5vh;
       position: absolute;
       top:  2.5vh;
-      right: 5vw;
       left: 50vw;
       color: #fff;
       font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -70,7 +69,7 @@
   }
 
   .Why-desc{
-    width: 20vw;
+    width: 30vw;
     color: #4a4a4a;
     overflow:auto;
     margin-top: -55vh;
