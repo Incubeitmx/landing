@@ -1,9 +1,16 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+}
 .App-header {
     width: 100vw;
     height: 80vh;
     background-image: url('./img/morelia_landing.png');
     background-size: 100%;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    white-space: normal;
+    overflow-x:auto;
+    overflow-y:auto;
   }
   .App-links {
       width: 40vw;
@@ -13,11 +20,13 @@
       right: 5vw;
       left: 50vw;
       color: #fff;
-      font-family: "Trebuchet MS", Helvetica, sans-serif
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      overflow-x:auto;
+      overflow-y:auto;
     }
     .links{
       color: #fff;
-      text-decoration: none
+      text-decoration: none;
     }
     .links2{
       text-decoration: none;
@@ -36,11 +45,13 @@
       padding: 15px 0;
     }
   .App-intro{
-    position: absolute;
-    top: 15vh;
-    right: 10vw;
-    left: 5vw;
-    font-family: "Trebuchet MS", Helvetica, sans-serif
+    margin-left: 50vw;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    overflow:auto;
+    color: #fff;
+    margin-right: 10vw;
+    margin-top: -20vh;
+    margin-bottom: 20vh
   }
   .head-logo{
     width: 8.9vw;
@@ -53,15 +64,18 @@
     width: 100vw;
     height: 70vh;
     background-color: #fff;
-    font-family: "Trebuchet MS", Helvetica, sans-serif
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    white-space: normal;
+    overflow:auto;
   }
 
   .Why-desc{
     width: 20vw;
     color: #4a4a4a;
-    position: absolute;
-    right: 25vw;
-    top:90vh;
+    overflow:auto;
+    margin-top: -55vh;
+    margin-bottom: 20vh;
+    margin-left: 50vw;
   }
   .App-download {
     width: 100vw;
@@ -69,7 +83,7 @@
     text-align: center;
     padding: 50px 0;
     color: #4a4a4a;
-    font-family: "Trebuchet MS", Helvetica, sans-serif
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
   }
 
   .App-about {
@@ -78,7 +92,8 @@
     background-color: #fff;
     text-align: center;
     color: #4a4a4a;
-    font-family: "Trebuchet MS", Helvetica, sans-serif
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    overflow:auto;
   }
   .descrip{
     text-align: justify;
@@ -93,11 +108,12 @@
   }
 
   .App-foot{
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    height: 10vh;
     background-color: #000;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #fff;
+    overflow:auto;
   }
 
   .foot-logo{
@@ -119,10 +135,11 @@
   .rights{
     color: #7c7c7c;
     font-size: 80%;
-    position: absolute;
-    bottom: -138.5vh;
     right: 20vw;
-    background-color: #000
+    background-color: #000;
+    overflow:auto;
+    margin-left: 70vw;
+    margin-top: -7vh;
   }
 
   @keyframes App-logo-spin {

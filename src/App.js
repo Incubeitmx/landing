@@ -4,26 +4,25 @@ import logoHead from './img/page_1.png';
 import phone from './img/bitmap.png'
 import playstore from './img/playstore.png'
 import './App.css';
+import { div,p,h1,h2,h3,h4 } from 'react-bootstrap'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
-
         <div className="App-header">
           <a href="#"><img src={logoHead} className="head-logo" alt="head-logo"/></a>
           <div className="App-links">
-            <p><a href="#App-download" className="links">DESCARGAR</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p ><a href="#App-download" className="links">DESCARGAR</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#App-why" className="links">¿POR QUÉ DEBERÍA USARLA?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#App-about" className="links">ACERCA DE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
-            <div className="App-intro">
-              <h1>¿Qué es CitiTour Morelia?</h1><br/>
-              <p className="intro">CitiTour Morelia es una aplicación que cuenta todo sobre los sitios de interés histórico, cultural y artísticos más relevantes de la ciudad de Morelia.</p><br/><br/>
-              <div className="btmDownload">
-                <a href="#App-download" className="links2">Descargar App</a>
-              </div>
+          </div>
+          <div className="App-intro">
+            <h1>¿Qué es CitiTour Morelia?</h1><br/>
+            <p className="intro">CitiTour Morelia es una aplicación que cuenta todo sobre los sitios de interés histórico, cultural y artísticos más relevantes de la ciudad de Morelia.</p><br/><br/>
+            <div className="btmDownload">
+              <a href="#App-download" className="links2">Descargar App</a>
             </div>
           </div>
         </div>
@@ -65,7 +64,7 @@ class App extends Component {
 
 
         <div className='App-foot'>
-          <img src={logoFoot} className="foot-logo" alt="foot-logo"/>
+          <a href="#"><img src={logoFoot} className="foot-logo" alt="foot-logo"/></a>
           <div className="rights">©2017 CitiTour Morelia.<br/>Todos los derechos reservados.</div>
         </div>
 
