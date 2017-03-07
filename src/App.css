@@ -5,11 +5,24 @@
     background-size: 100%;
     background-repeat: no-repeat
   }
+  .App-links {
+      width: 40vw;
+      height: 5vh;
+      position: absolute;
+      top:  2.5vh;
+      right: 5vw;
+      left: 50vw;
+      color: #fff
+    }
+    .links{
+      color: #fff;
+      text-decoration: none
+    }
   .head-logo{
-    width: 8.9%;
-    margin-left: 19.1%;
-    margin-top: 2.3%;
-    margin-bottom: 35.7%;
+    width: 8.9vw;
+    margin-left: 19.1vw;
+    margin-top: 4.3vh;
+    margin-bottom: 35.7vh;
   }
 
   .App-why {
@@ -35,9 +48,9 @@
   }
 
   .App-team {
-    width: 100%;
-    height: 50%;
-    background-color: #dfdfdf;
+    width: 100vw;
+    height: 50vh;
+    background-color: #f6f6f6;
   }
 
   .App-foot{
