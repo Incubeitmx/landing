@@ -1,0 +1,67 @@
+.App-header {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('./img/morelia_landing.png');
+    background-size: 100%;
+    background-repeat: no-repeat
+  }
+  .head-logo{
+    width: 8.9%;
+    margin-left: 19.1%;
+    margin-top: 2.3%;
+    margin-bottom: 35.7%;
+  }
+
+  .App-why {
+    width: 100vw;
+    height: 70vh;
+    background-color: #fff;
+  }
+
+  .App-download {
+    width: 100vw;
+    background-color: #dfdfdf;
+    text-align: center;
+    padding: 70px 0;
+    color: #4a4a4a;
+  }
+
+  .App-about {
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+  }
+
+  .App-team {
+    width: 100%;
+    height: 50%;
+    background-color: #dfdfdf;
+  }
+
+  .App-foot{
+    width: 100%;
+    height: 10%;
+    background-color: #000;
+  }
+
+  .foot-logo{
+    width: 9.4%;
+    background-color: #000;
+    margin-left: 19.1%;
+    margin-top: 1.3%;
+    margin-bottom: 1.3%;
+  }
+  .play-logo{
+    background-color: #dfdfdf;
+  }
+
+  .phone-logo{
+    width: 17vw;
+    height: 67vh;
+    margin-left: 19.1%;
+  }
+
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
